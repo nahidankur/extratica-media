@@ -1,52 +1,43 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Contact Form</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
     <link rel="stylesheet" href="./assets//css/contact.css">
-  </head>
-  <body>
-    <div class="center">
-      <h1>Contact Us</h1>
-      <form action="https://formsubmit.co/yourmail@email.com" method="POST">
-
-        <div class="txt_field">
-          <input type="text" name="name" id="name" required>
-          <span></span>
-          <label>Full Name</label>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+          <div class="left-container">
+            <div class="left-inner-container">
+            <h2>Contact With Us</h2>
+            <p>Whether you have a question, want to start a project or            simply want to connect.</p>
+              <br>
+              <p>Feel free to send me a message in the contact form</p>
+          </div>
+            </div>
+          <div class="right-container">
+            <div class="right-inner-container">
+              <form action="#">
+                  <h2 class="lg-view">Contact</h2>
+            <h2 class="sm-view">Let's Chat</h2>
+                 <p>* Required</p>
+                  <div class="social-container">
+                      <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                      <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                <input type="text" placeholder="Name *"  />
+            <input type="email" placeholder="Email *" />
+                  <input type="text" placeholder="Company" />
+                  <input type="phone" placeholder="Phone" />
+                <textarea rows="4" placeholder="Message"></textarea>
+                  <button>Submit</button>
+              </form>
+            </div>
+          </div>
         </div>
-
-        <div class="txt_field">
-            <input type="text" name="email" id="email" required>
-            <span></span>
-            <label>Email</label>
-        </div>
-
-        <div class="txt_field">
-            <input type="text" name="phone" id="phone">
-            <span></span>
-            <label>Phone</label>
-        </div>
-
-
-        <div class="txt_field">
-          <input type="text" name="message" id="message" required>
-          <span></span>
-          <label>Message</label>
-        </div>
-
-        <div class="pass">
-            <input class="pass" type="reset" value="Reset">
-        </div>
-
-        <input type="submit" value="Submit">
-        <input type="hidden" name="_template" value="table">
-
-        <div class="homePage_link">
-        <a href="#">Back to Home page</a>
-        </div>
-
-      </form>
-    </div>
-  </body>
+      </div>
+</body>
 </html>
