@@ -2,4 +2,32 @@
     .none {
         display: none !important;
     }
+    .pc-hide {
+        display: none !important;
+    }
+    .ipad-hide {
+        display: none !important;
+    }
+    .mobile-hide {
+        display: block !important;
+    }
+}
+
+@media (max-width: 769px) {
+    .pc-hide {
+        display: none !important;
+    }
+    .mobile-hide {
+        display: none !important;
+    }
+    .ipad-hide {
+        display: block !important ;
+    }
+}
+
+.mobile-hide {
+    display: none;
+}
+.ipad-hide {
+    display: none ;
 }
