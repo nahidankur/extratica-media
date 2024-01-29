@@ -16,7 +16,7 @@
     overflow: hidden;
     padding-bottom: 30px;
     white-space: nowrap;
-    position: relative;
+  
   }
   
   .logos:before, .logos:after {
